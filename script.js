@@ -14,3 +14,10 @@ document.addEventListner("contextmenu",function(e)
                          {
                              e.preventDefault()
                          },false)
+
+const menuIcon = document.getElementById("menu-icon");
+const menuList = document.querySelector(".menulist");
+
+menuIcon.onclick = () => {
+  menuList.classList.toggle("active");
+};
