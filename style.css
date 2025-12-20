@@ -18,6 +18,9 @@
   .contact {
     padding: 80px 5%;
   }
+.menulist.active {
+  display: flex;
+}
 
   .services {
     flex-direction: column;
@@ -138,3 +141,4 @@
     padding: 15px;
   }
 }
+
